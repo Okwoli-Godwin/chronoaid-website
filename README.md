@@ -21,11 +21,15 @@ The ChronoAid website serves as our primary online presence, providing informati
 
 ## Technologies
 
-Frontend: [React, ...]
-Styling: [CSS, SASS, Tailwind CSS]
-Build Tool: [...]
-Testing: [...]
-CI/CD: [GitHub Actions]
+- Frontend: [React, ...]
+
+- Styling: [CSS, SASS, Tailwind CSS]
+
+- Build Tool: [...]
+
+- Testing: [...]
+
+- CI/CD: [GitHub Actions]
 
 ## Getting Started
 
@@ -33,7 +37,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository
 
-**git clone <https://github.com/ChronoAid/chronoaid-website.git>**
+- **git clone <https://github.com/ChronoAid/chronoaid-website.git>**
 
 2. Navigate to the project directory:
 
@@ -41,11 +45,11 @@ cd website
 
 3. Install dependencies:
 
-### npm install
+- **npm install**
 
 4. Start the development server:
 
-### npm run dev
+- **npm run dev**
 
 The site should now be running on <http://localhost:3000> (or your specified port).
 
@@ -61,7 +65,7 @@ The site should now be running on <http://localhost:3000> (or your specified por
 
 Run the test suite with:
 
-### npm run test
+- **npm run test**
 
 Ensure all tests pass before submitting a pull request.
 
@@ -69,8 +73,9 @@ Ensure all tests pass before submitting a pull request.
 
 Deployment is handled automatically through GitHub Actions when changes are merged into the **main** branch. For manual deployment, use:
 
-**npm run build**
-**npm run deploy**
+- **npm run build**
+
+- **npm run deploy**
 
 ## Contributing
 
