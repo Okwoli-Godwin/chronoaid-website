@@ -8,11 +8,13 @@ export default {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(180deg, #06A0EC 0%, #07557B 100%)',
+        'background': 'url("./src/assets/Background pattern.png")'
       },
       colors: {
         base: {
           white: "#fff",
-          black: "#000"
+          black: "#000",
+          small: "#475467"
         },
       },
       fontSize: {
