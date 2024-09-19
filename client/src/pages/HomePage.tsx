@@ -1,8 +1,13 @@
+import Hero from "./Hero"
+import Unlock from "./Unlock"
 
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <Hero />
+      <Unlock />
+    </div>
   )
 }
 
