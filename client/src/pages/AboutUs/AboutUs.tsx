@@ -1,9 +1,15 @@
-
+import About from "./about";
+import Solution from "./solution";
+import Story from "./story";
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
-  )
-}
+    <div>
+      <About />
+      <Solution />
+      <Story />
+    </div>
+  );
+};
 
-export default AboutUs
+export default AboutUs;

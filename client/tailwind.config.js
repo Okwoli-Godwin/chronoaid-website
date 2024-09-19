@@ -17,6 +17,10 @@ export default {
           small: "#475467",
           primary: "#086593"
         },
+          bluePrimary: "#086593",
+          greyDark: "#101828",
+          greyPrimary: "#475467",
+        }
       },
       fontSize: {
         sm: "18px",
