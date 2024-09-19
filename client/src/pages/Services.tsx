@@ -26,7 +26,7 @@ const Services = () => {
                         Purchase compatible devices for real-time monitoring.
                     </p>
                 </div>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center sm:w-[100%] xsm:w-[100%] sm:mt-[22px] xsm:mt-[32px]">
                     <img src={img2} alt="" className="h-[50px]"/>
                     <h3 className="text-[17px] font-[600] mt-[6px]">
                         Schedule Home Care Visits
@@ -35,7 +35,7 @@ const Services = () => {
                         Seamless booking for home care and wellness services
                     </p>
                 </div>
-                <div className="flex flex-col items-center md:ml-[200px] md:mt-[20px]">
+                <div className="flex flex-col items-center md:ml-[200px] md:mt-[20px] sm:w-[100%] xsm:w-[100%] sm:mt-[22px] xsm:mt-[32px]">
                     <img src={img3} alt="" className="h-[50px]"/>
                     <h3 className="text-[17px] font-[600] mt-[6px]">
                         Medication Review
