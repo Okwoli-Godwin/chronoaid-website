@@ -14,8 +14,11 @@ export default {
         base: {
           white: "#fff",
           black: "#000",
-          small: "#475467"
-        },
+          small: "#475467",
+          bluePrimary: "#086593",
+          greyDark: "#101828",
+          greyPrimary: "#475467",
+        }
       },
       fontSize: {
         sm: "18px",
