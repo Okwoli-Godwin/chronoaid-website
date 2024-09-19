@@ -1,21 +1,21 @@
 const Solution = () => {
   return (
     <div>
-      <section className="px-16 my-[4rem]">
+      <section className="px-16 my-[100px]">
         <div className="text-left">
-          <p className="text-[16px] font-semibold  leading-[24px] text-base-bluePrimary">
+          <p className="text-[16px] font-semibold  leading-[24px] text-bluePrimary">
             Our Solution
           </p>
-          <p className="text-[30px] font-semibold leading-[44px] tracking-[-0.02em] text-base-greyDark pb-3">
+          <p className="text-[30px] font-semibold leading-[44px] tracking-[-0.02em] text-greyDark pb-3">
             We’re just getting started
           </p>
-          <p className="text-[15px] font-normal leading-[30px] text-base-greyPrimary">
+          <p className="text-[15px] font-normal leading-[30px] text-greyPrimary">
             Revolutionizing Chronic Disease Management and Care Coordination
             with AI
           </p>
         </div>
-        <div className="flex justify-center flex-row mt-[2rem]">
-          <div className="flex-1 text-[15px] font-normal leading-[30px] text-base-greyPrimary pr-4">
+        <div className="flex justify-center flex-row mt-[1rem]">
+          <div className="flex-1 text-[15px] font-normal leading-[30px] text-greyPrimary pr-4">
             <div>
               <p className="pb-4">
                 ChronoAid AI is a comprehensive platform designed to
@@ -45,7 +45,7 @@ const Solution = () => {
               </li>
             </ul>
           </div>
-          <div className="flex-1 text-[15px] font-normal leading-[30px] text-base-greyPrimary pl-4">
+          <div className="flex-1 text-[15px] font-normal leading-[30px] text-greyPrimary pl-4">
             <ul className="space-y-2">
               <li>
                 • Transitional Care Management Facilitate smooth transitions for
