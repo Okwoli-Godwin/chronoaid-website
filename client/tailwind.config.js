@@ -6,6 +6,19 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #06A0EC 0%, #07557B 100%)',
+      },
+      colors: {
+        base: {
+          white: "#fff",
+          black: "#000"
+        },
+      },
+      fontSize: {
+        sm: "18px",
+        md: "28px"
+      },
       screens: {
         xsm: { min: "320px", max: "375px" },
         
