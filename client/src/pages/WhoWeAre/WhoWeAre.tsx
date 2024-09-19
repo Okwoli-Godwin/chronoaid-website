@@ -1,8 +1,13 @@
+import WhatWeServe from "./what-we-serve"
+import WhoWeAreAndWhatWeAre from "./who-we-are"
 
 
 const WhoWeAre = () => {
   return (
-    <div>WhoWeAre</div>
+    <div>
+      <WhoWeAreAndWhatWeAre/>
+      <WhatWeServe/>
+    </div>
   )
 }
 
