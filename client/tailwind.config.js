@@ -12,8 +12,11 @@ export default {
       colors: {
         base: {
           white: "#fff",
-          black: "#000"
-        },
+          black: "#000",
+          bluePrimary: "#086593",
+          greyDark: "#101828",
+          greyPrimary: "#475467",
+        }
       },
       fontSize: {
         sm: "18px",
