@@ -1,7 +1,7 @@
 const Solution = () => {
   return (
     <div>
-      <section className="px-16 my-[4rem]">
+      <section className="px-16 my-[100px]">
         <div className="text-left">
           <p className="text-[16px] font-semibold  leading-[24px] text-base-bluePrimary">
             Our Solution
@@ -14,7 +14,7 @@ const Solution = () => {
             with AI
           </p>
         </div>
-        <div className="flex justify-center flex-row mt-[2rem]">
+        <div className="flex justify-center flex-row mt-[1rem]">
           <div className="flex-1 text-[15px] font-normal leading-[30px] text-base-greyPrimary pr-4">
             <div>
               <p className="pb-4">
