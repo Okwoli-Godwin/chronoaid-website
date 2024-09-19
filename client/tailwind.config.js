@@ -15,6 +15,8 @@ export default {
           white: "#fff",
           black: "#000",
           small: "#475467",
+          primary: "#086593"
+        },
           bluePrimary: "#086593",
           greyDark: "#101828",
           greyPrimary: "#475467",
