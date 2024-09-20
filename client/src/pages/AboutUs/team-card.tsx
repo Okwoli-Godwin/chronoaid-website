@@ -10,7 +10,7 @@ export const TeamCard = (props: ProjectCardProps) => {
   return (
     <div className="w-[300px] p-4">
       <div className="">
-        <img className="" src={props.imageUrl} alt="team member's image" />
+        <img className="" src={props.imageUrl} alt={props.name} />
       </div>
       <div className="">
         <div>
