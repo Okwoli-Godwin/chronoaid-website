@@ -6,6 +6,7 @@ import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import StartForFree from "../pages/StartForFree/StartForFree";
 import BookADemo from "../pages/BookADemo/BookADemo";
+import Confirmation from "../pages/Confirmation/confirmation";
 
 export const Element = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ export const Element = createBrowserRouter([
             {
                 path: "bookademo",
                 element: <BookADemo />
+            },
+            {
+                path: "confirmation",
+                element: <Confirmation />
             }
         ]
     }
