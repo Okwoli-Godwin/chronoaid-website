@@ -64,7 +64,7 @@ const ContactUs = () => {
               />
             </div>
             <div className='space-y-2 mt-[18px]'>
-              <Label htmlFor='message' className='sm:text-[16px] xsm:text-[16px'>Message</Label>
+              <Label htmlFor='message' className='sm:text-[16px] xsm:text-[16px]'>Message</Label>
               <Textarea id="message" placeholder="Leave us a message" className="min-h-[100px] resize-none" required/>
             </div>
             <div className="flex items-center space-x-2 mt-[18px]">
