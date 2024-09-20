@@ -1,7 +1,10 @@
 import { TeamCard } from "./team-card";
-import teamImage from "../../assets/Avatar.png";
 import linkedln from "../../assets/linkedln.png";
 import twitter from "../../assets/twitter.png"
+import jummie from "../../assets/jummie.png"
+import sunny from "../../assets/sunny.png"
+import daniel from "../../assets/daniel.png"
+import defaultImage from "../../assets/default.png"
 
 const About = () => {
   return (
@@ -24,42 +27,42 @@ const About = () => {
           </div>
           <div className="xl:grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1">
             <TeamCard
-              imageUrl={teamImage}
+              imageUrl={defaultImage}
               name={"Dr. Williams Emmanuel Adeyeye"}
               jobTitle={"Founder & CEO"}
               linkedln={linkedln}
               twitter={twitter}
             />
             <TeamCard
-              imageUrl={teamImage}
+              imageUrl={sunny}
               name={"Sunday Pius Ojwo"}
               jobTitle={"Software Engineer & Data Scientist"}
               linkedln={linkedln}
               twitter={twitter}
             />
             <TeamCard
-              imageUrl={teamImage}
+              imageUrl={jummie}
               name={"Ipoola Olajumoke Elizabeth"}
               jobTitle={"Frontend Developer"}
               linkedln={linkedln}
               twitter={twitter}
             />
             <TeamCard
-              imageUrl={teamImage}
+              imageUrl={defaultImage}
               name={"Okwoli Godwin Savio "}
               jobTitle={"Full Stack Developer"}
               linkedln={linkedln}
               twitter={twitter}
             />
             <TeamCard
-              imageUrl={teamImage}
+              imageUrl={daniel}
               name={"Daniel Adeboye"}
               jobTitle={"Machine Learning Engineer, Kaggle Expert"}
               linkedln={linkedln}
               twitter={twitter}
             />
             <TeamCard
-              imageUrl={teamImage}
+              imageUrl={defaultImage}
               name={"Nathanael Jonathan"}
               jobTitle={"Product Designer"}
               linkedln={linkedln}
