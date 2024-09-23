@@ -9,7 +9,7 @@ import { Checkbox } from "../../components/ui/checkbox"
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 import { Link } from 'react-router-dom'
-import img from "../../assets/image-01.png"
+import img from "../../assets/doc.jpeg"
 
 const CustomInput = React.forwardRef((props, ref: any) => {
   return (
